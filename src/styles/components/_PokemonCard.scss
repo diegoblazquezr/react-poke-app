@@ -1,0 +1,153 @@
+@import '../utils/variables.scss';
+
+.articlePokemonCard {
+    width: 200px;
+    border: 1px solid lightgrey;
+    background-color: rgb(240, 240, 240);
+    padding: 5px;
+    text-align: center;
+    border-radius: 2%;
+    // height: fit-content;
+
+    &>:first-child {
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+
+.articlePokemonCard img {
+    width: 100%;
+}
+
+.articlePokemonCard a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    margin: 10px 0 10px 0;
+    font-size: 1.2em;
+}
+
+.articlePokemonCard a:hover {
+    text-decoration: underline;
+}
+
+.divTypes {
+    display: flex;
+    justify-content: center;
+    gap: 3px;
+}
+
+.type1, .type2 {
+    width: 100px;
+    min-width: fit-content;
+    height: fit-content;
+    border: 3px solid;
+    padding: 4px;
+    text-align: center;
+    border-radius:50px;
+    font-size: 0.9em;
+    color: white;
+    text-shadow: 0 0 3px black;
+
+    &.normal {
+        border-color: $normal-border;
+        background-color: $normal-bg;
+    }
+
+    &.fighting {
+        border-color: $fighting-border;
+        background-color: $fighting-bg;
+    }
+
+    &.flying {
+        border-color: $flying-border;
+        background-color: $flying-bg;
+    }
+
+    &.poison {
+        border-color: $poison-border;
+        background-color: $poison-bg;
+    }
+
+    &.ground {
+        border-color: $ground-border;
+        background-color: $ground-bg;
+    }
+
+    &.rock {
+        border-color: $rock-border;
+        background-color: $rock-bg;
+    }
+
+    &.bug {
+        border-color: $bug-border;
+        background-color: $bug-bg;
+    }
+
+    &.ghost {
+        border-color: $ghost-border;
+        background-color: $ghost-bg;
+    }
+
+    &.steel {
+        border-color: $steel-border;
+        background-color: $steel-bg;
+    }
+
+    &.fire {
+        border-color: $fire-border;
+        background-color: $fire-bg;
+    }
+
+    &.water {
+        border-color: $water-border;
+        background-color: $water-bg;
+    }
+
+    &.grass {
+        border-color: $grass-border;
+        background-color: $grass-bg;
+    }
+
+    &.electric {
+        border-color: $electric-border;
+        background-color: $electric-bg;
+    }
+
+    &.psychic {
+        border-color: $psychic-border;
+        background-color: $psychic-bg;
+    }
+
+    &.ice {
+        border-color: $ice-border;
+        background-color: $ice-bg;
+    }
+
+    &.dragon {
+        border-color: $dragon-border;
+        background-color: $dragon-bg;
+    }
+
+    &.dark {
+        border-color: $dark-border;
+        background-color: $dark-bg;
+    }
+
+    &.fairy {
+        border-color: $fairy-border;
+        background-color: $fairy-bg;
+    }
+
+    &.shadow {
+        border-color: $shadow-border;
+        background-color: $shadow-bg;
+    }
+
+    &.default {
+        border-color: $default-border;
+        background-color: $default-bg;
+    }
+}

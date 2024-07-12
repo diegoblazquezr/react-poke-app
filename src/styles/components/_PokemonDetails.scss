@@ -1,0 +1,65 @@
+.sectionDetails {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    font-size: 1em;
+}
+
+.pokeHeader {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5em;
+    margin: 20px 0 0 0;
+    gap: 20px;
+}
+
+.sectionDetails img {
+    width: 50%;
+    min-width: 250px;
+    max-width: 400px;
+}
+
+.sectionDetails h4 {
+    margin: 20px 0 10px 0;
+}
+
+.pokeAbout {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 50px;
+}
+
+.pokeAbout p{
+    color: rgb(80, 80, 80);
+    font-size: 0.8em;
+}
+
+.aboutWeight, .aboutHeight, .aboutAbilities {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.description {
+    margin: 20px 0 20px 0;
+    text-align: center;
+}
+
+.base-stats {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px 0 20px 0;
+    line-height: 20px;
+
+    &>div {
+        display: flex;
+        justify-content: space-between;
+        gap: 50px;
+    }
+}

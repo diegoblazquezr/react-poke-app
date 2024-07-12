@@ -1,0 +1,23 @@
+@import '../utils/variables.scss';
+
+// @font-face {
+//     font-family: pokeFont;
+//     src: url(../../assets/fonts/pokefont.ttf);
+// }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Press Start 2P';
+    font-size: 0.96em;
+}
+  
+
+body {
+    min-height: 100vh;
+}
+
+a:hover {
+    text-decoration: underline;
+}
